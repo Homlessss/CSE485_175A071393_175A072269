@@ -1,0 +1,20 @@
+body{
+    background-image:url(../img/bglg.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    
+
+}
+.logo{
+    margin-top: 10%;
+    text-align: center;
+}
+    .main{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .bg{
+        text-align: center;
+   
+    }
+   

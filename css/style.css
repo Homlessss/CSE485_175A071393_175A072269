@@ -1,0 +1,122 @@
+.body{}
+img {max-width: 100%;
+    height: auto;
+    
+}
+b{ color: black;}
+.demo{
+    max-width: 100%
+}
+.td{
+    color:rgb(231, 172, 84);
+  
+}
+
+body{
+    margin:0px auto;
+}
+
+#top-header{
+    display:flex;
+    background-color:#024282;
+    height: 36px;
+}
+
+.contact{
+    width:33.33%;
+    color:#fdb913;
+    font-weight: 600;
+    display:flex;
+    align-items: center;
+}
+
+.sub-menu{
+    width:40.33%;
+    display:flex;
+    
+    align-items: center;
+}
+.sub-menu a{
+    color:#fff;
+    text-decoration: none;
+    margin-right:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search{
+    width:20%;
+    
+    align-items: center;
+    color:#fff;
+    display: flex;
+}
+
+.lang{
+    width:6.33%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#main-header{
+    height: 100px;
+    background-color:#fff;
+    border-bottom:1px solid rgba(0,0,0,0.15);
+    display:flex;
+}
+
+.logo{
+    width:30%;
+    display:flex;
+    align-items: center;
+    margin-left:15px;
+}
+
+.main-menu{
+    width:70%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-menu a{
+    text-decoration: none;
+    color:#000;
+    font-size:18px;
+    margin-right:20px;
+}
+
+.main-menu a:hover{
+    color:green;
+}
+.input-group {
+    width:20%;
+    display:flex;
+    align-items: center;
+    color:#fff;
+}
+.mb3 a{
+    margin: 0px auto auto 30px;
+    text-align: center;
+    
+    color: gray;
+}
+.mb3{
+    
+    
+    background-color: #024282;
+}
+
+li {
+    color: #fff;
+    border: 1px solid transparent;
+}
+.mb3 li a{
+    color: #fff;
+    
+}
+.td
+
+
+
