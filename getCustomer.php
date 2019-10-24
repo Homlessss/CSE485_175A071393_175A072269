@@ -2,7 +2,7 @@
 //quy trinh 5 bước
 //bước 1 
 //tạo biến conn để check kết nói đc ko (1-0,t-f)
- $conn = mysqli_connect('localhost','root','','art');
+ $conn = mysqli_connect('localhost','https://btlwebtechonology.000webhostapp.com/admin.php','Mkhai2308','id11247705_btlwebtechnology');
  // sử lý lỗi
  if(!$conn){
      // câu lệnh bắt lỗi

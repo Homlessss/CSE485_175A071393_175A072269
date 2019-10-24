@@ -5,7 +5,7 @@ $pass = $_POST['pass'];
 
 
 $_SESSION["Email"]="";
-$conn = mysqli_connect('localhost','root','','userr');
+$conn = mysqli_connect('localhost','id11247705_btlwebtechnology','Mkhai2308','id11247705_btlwebtechnology');
 if(!$conn){
     die('co loi xay ra'.mysqli_connect_error() );
 
