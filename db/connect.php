@@ -1,10 +1,10 @@
 <?php 
-    $db = array {
+    $db = array(
         'server' => 'localhost',
         'username' => 'root',
         'password' => '',
         'dbname' => 'webtechnology',
-    };
+    );
 
     $conn = mysqli_connect($db['server'], $db['username'], $db['password'], $db['dbname']);
 
