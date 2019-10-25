@@ -14,7 +14,7 @@
             $sql = " SELECT * FROM users where '$user' = user and '$pass' = Pass  ";
             mysqli_set_charset($conn,'UTF8');
             $result = mysqli_query($conn,$sql);
-            if (mysqli_num_rows($result)>0){
+            if (mysqli_num_rows($result)>=0){
                 while($row = mysqli_fetch_assoc($result)){
                     if($row['Admin']=='1'){
                         header("location:adminpage.php");
