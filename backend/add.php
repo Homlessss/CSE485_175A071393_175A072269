@@ -19,6 +19,7 @@
             else{
                 header("location:adminpage.php");
                 echo "Thành công";
+                exit();
             }
         }
     }

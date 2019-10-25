@@ -8,19 +8,18 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="stylebackend.css">
+    <link rel="stylesheet" href="../css/stylebackend.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
 
   <body>
-    <div class="container">
-      <div class="logo">
-        <img src="img/logo_ntt.png" alt="">
-      </div>
-      <div class="bg">
-        <div class="main">
-          <form class="formm" action="CheckLogin.php" method="POST">
+    <div class="containerlogin">
+    <div class="logo align-center">
+        <img src="../img/logo_ntt.png" alt="">
+    </div>
+    <div class="logo align-center">
+          <form class="formm" action="Checklogin.php" method="POST">
             mail:</br><input style=" border-radius: 10px" type="text" name="user"> </br>
             Password: </br><input style=" border-radius: 10px" type="password" name="pass" > </br></br>
             <input type="submit" style=" border-radius: 10px" value="Đăng Nhập">

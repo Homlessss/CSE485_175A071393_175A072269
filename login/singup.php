@@ -5,19 +5,23 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <link rel="stylesheet" href="stylebackend.css">
+     <link rel="stylesheet" href="../css/stylebackend.css">
     <!-- Bootstrap CSS -->
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <div class="singup">
+    <div class="containerlogin">
+    <div class="logo align-center">
+        <img src="../img/logo_ntt.png" alt="">
+    </div>
+    <div class="logo align-center">
+    <div class="signup align-center">
       <form action="singupResult.php" Method = "POST">
         <div class="form">
           <div> Tên <br> <input type="text" name="Ten" placeholder="insert Name"></div>
-          <div> email <br> <input type="text" name="email" placeholder="insert Name"></div>
-          <div> pass <br> <input type="text" name="pass" placeholder="insert Name"></div>
-          <div> admin <br> <input type="text" name="admin" placeholder="insert Name"></div>
+          <div> email <br> <input type="text" name="email" placeholder="insert email"></div>
+          <div> pass <br> <input type="text" name="pass" placeholder="insert pass"></div>
           <input type="submit" value="Đăng ký">
         </div>
       </form>
@@ -29,4 +33,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
-</html>
+</html>   
