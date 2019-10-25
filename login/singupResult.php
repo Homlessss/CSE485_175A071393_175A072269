@@ -15,7 +15,7 @@
             Value('$Ten','$email','$pass',0)";
             mysqli_set_charset($conn,'UFT8');
 
-            if($result = mysqli_query($conn,$sql)){
+            if(!$result = mysqli_query($conn,$sql)){
                 echo'failed';
 
             }
